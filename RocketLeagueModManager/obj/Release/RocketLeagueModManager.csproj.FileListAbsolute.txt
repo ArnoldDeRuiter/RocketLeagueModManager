@@ -1,0 +1,11 @@
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\bin\Release\RocketLeagueModManager.exe.config
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\bin\Release\RocketLeagueModManager.exe
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\bin\Release\RocketLeagueModManager.pdb
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\bin\Release\Newtonsoft.Json.dll
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\bin\Release\Newtonsoft.Json.xml
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.Main.resources
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.Properties.Resources.resources
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.csproj.GenerateResource.Cache
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.exe
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.pdb
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.csprojResolveAssemblyReference.cache
