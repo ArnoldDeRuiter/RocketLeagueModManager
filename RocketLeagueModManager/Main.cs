@@ -255,13 +255,20 @@ namespace RocketLeagueModManager
             List<string> selectedModDirectoryFiles = Directory.GetFiles(selectedModDirectory, "*.upk", SearchOption.AllDirectories).ToList();
             if (selectedModDirectoryFiles.Count == 0) { MessageBox.Show("Selected mod directory seems to contain no '.upk' files."); return; }
 
-            //Move installed files to Backup directory
-            foreach (string file in installedFiles)
+            try
             {
-                FileInfo mFile = new FileInfo(rootDirectory + coockedPCConsoleDirectory + "\\" + file);
-                mFile.MoveTo(backupDirectory + "\\" + mFile.Name);
+                //Move installed files to Backup directory
+                foreach (string file in installedFiles)
+                {
+                    FileInfo mFile = new FileInfo(rootDirectory + coockedPCConsoleDirectory + "\\" + file);
+                    mFile.MoveTo(backupDirectory + "\\" + mFile.Name);
+                }
             }
-
+            catch (Exception)
+            {
+                MessageBox.Show("Rocket League (or some other application) seems to be using the files that we need to modify. Please close it, or abort it's action and try again.");
+                return;
+            }
             List<string> unReplacedFiles = new List<string>();
             //Get selected mod files and move to TAGame\CookedPCConsole ("installtion") directory.
             foreach (string file in selectedModDirectoryFiles)
@@ -296,11 +303,11 @@ namespace RocketLeagueModManager
                 {
                     fileList = fileList + ", " + item;
                 }
-                MessageBox.Show("Installtion complete. The following files have not been replaced:\n\n", fileList);
+                MessageBox.Show("Installation complete. The following files have not been replaced:\n\n", fileList);
             }
             else
             {
-                MessageBox.Show("Installtion complete.");
+                MessageBox.Show("Installation complete.");
             }
 
             getInstalledFiles();
