@@ -9,3 +9,4 @@ C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\Roc
 C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.exe
 C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.pdb
 C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.csprojResolveAssemblyReference.cache
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Release\RocketLeagueModManager.SelectionForm.resources

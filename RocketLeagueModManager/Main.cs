@@ -71,6 +71,14 @@ namespace RocketLeagueModManager
                 Directory.CreateDirectory(rootDirectory + modsDirectory + "\\Stock");
                 MessageBox.Show("Welcome to the Rocket League Mod Manager, to get started, place mods in the 'Mods' directory I've just created for you.\n\nAlso make sure to make a copy of your (unmodified) 'Park_P.upk' file to the 'Mods/Stock' directory.");
             }
+            
+            DirectoryInfo rlDirectoryInfo = new DirectoryInfo(rootDirectory + coockedPCConsoleDirectory);
+            if (rlDirectoryInfo.Exists == false)
+            {
+                Directory.CreateDirectory(rootDirectory + coockedPCConsoleDirectory);
+                MessageBox.Show("Make sure you have extracted the application in your Rocket League root directory.");
+            }
+
         }
 
         private void Main_Load(object sender, EventArgs e)

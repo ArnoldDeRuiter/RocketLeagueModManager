@@ -9,3 +9,4 @@ C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\Roc
 C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Debug\RocketLeagueModManager.pdb
 C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\bin\Debug\Newtonsoft.Json.dll
 C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Arnold\documents\visual studio 2015\Projects\RocketLeagueModManager\RocketLeagueModManager\obj\Debug\RocketLeagueModManager.SelectionForm.resources
